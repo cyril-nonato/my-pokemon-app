@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/my-pokemon-app/static/css/main.b8509884.chunk.css",
-    "main.js": "/my-pokemon-app/static/js/main.11897710.chunk.js",
-    "main.js.map": "/my-pokemon-app/static/js/main.11897710.chunk.js.map",
-    "runtime~main.js": "/my-pokemon-app/static/js/runtime~main.61c538f7.js",
-    "runtime~main.js.map": "/my-pokemon-app/static/js/runtime~main.61c538f7.js.map",
-    "static/js/2.852c1a89.chunk.js": "/my-pokemon-app/static/js/2.852c1a89.chunk.js",
-    "static/js/2.852c1a89.chunk.js.map": "/my-pokemon-app/static/js/2.852c1a89.chunk.js.map",
+    "main.js": "/my-pokemon-app/static/js/main.20b7edcf.chunk.js",
+    "main.js.map": "/my-pokemon-app/static/js/main.20b7edcf.chunk.js.map",
+    "runtime~main.js": "/my-pokemon-app/static/js/runtime~main.43d2b072.js",
+    "runtime~main.js.map": "/my-pokemon-app/static/js/runtime~main.43d2b072.js.map",
+    "static/js/2.69da7e08.chunk.js": "/my-pokemon-app/static/js/2.69da7e08.chunk.js",
+    "static/js/2.69da7e08.chunk.js.map": "/my-pokemon-app/static/js/2.69da7e08.chunk.js.map",
     "static/js/3.2a6ad8c6.chunk.js": "/my-pokemon-app/static/js/3.2a6ad8c6.chunk.js",
     "static/js/3.2a6ad8c6.chunk.js.map": "/my-pokemon-app/static/js/3.2a6ad8c6.chunk.js.map",
-    "static/js/4.99e0e6a3.chunk.js": "/my-pokemon-app/static/js/4.99e0e6a3.chunk.js",
-    "static/js/4.99e0e6a3.chunk.js.map": "/my-pokemon-app/static/js/4.99e0e6a3.chunk.js.map",
+    "static/js/4.5e53ef13.chunk.js": "/my-pokemon-app/static/js/4.5e53ef13.chunk.js",
+    "static/js/4.5e53ef13.chunk.js.map": "/my-pokemon-app/static/js/4.5e53ef13.chunk.js.map",
     "index.html": "/my-pokemon-app/index.html",
-    "precache-manifest.2cf0eb94a9152a869449f251ad177bc8.js": "/my-pokemon-app/precache-manifest.2cf0eb94a9152a869449f251ad177bc8.js",
+    "precache-manifest.145a2519727ae143af00d45da294d4a8.js": "/my-pokemon-app/precache-manifest.145a2519727ae143af00d45da294d4a8.js",
     "service-worker.js": "/my-pokemon-app/service-worker.js",
     "static/css/main.b8509884.chunk.css.map": "/my-pokemon-app/static/css/main.b8509884.chunk.css.map"
   }
