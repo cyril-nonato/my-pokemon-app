@@ -32,6 +32,13 @@ const evolutionImageSuccess = ( state, action ) => {
   }
 }
 
+const clearDetails = ( state, action ) => {
+  return {
+    ...state,
+    pokemonDetails: null,
+  }
+}
+
 const reducer = ( state = initialState, action ) => {
   switch (action.type) {
     case actionTypes.SEARCH_INIT:
@@ -40,6 +47,8 @@ const reducer = ( state = initialState, action ) => {
       return searchSuccess( state, action );
     case actionTypes.EVOLUTION_IMAGE_SUCCESS:
       return evolutionImageSuccess( state, action );
+    case actionTypes.CLEAR_DETAILS:
+      return clearDetails( state, action );
     default:
       return state;
   }

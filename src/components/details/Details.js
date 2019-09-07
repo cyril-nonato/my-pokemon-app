@@ -20,15 +20,13 @@ const Details = props => {
 
   const pokemonEvoImages = useSelector(state => state.search.pokemonEvoImages);
 
-  console.log(pokemonEvoImages);
-
   useEffect(() => {
+
     return () => {
       willUnmount.current = true;
+      dispatch(actions.clearDetails());
     }
-    
-  }, []);
-
+  }, [dispatch])
 
   useEffect(() => {
     if (!willUnmount.current) {

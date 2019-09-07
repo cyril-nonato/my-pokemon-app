@@ -120,3 +120,9 @@ export const speciesURL = (url) => {
 }
 
 // End of obtaining evolution details
+
+export const clearDetails = () => {
+  return {
+    type: actionTypes.CLEAR_DETAILS
+  }
+}

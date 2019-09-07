@@ -6,7 +6,8 @@ export {
 
 export { 
   searchPokemon, 
-  speciesURL 
+  speciesURL,
+  clearDetails 
 } from './search';
 
 
