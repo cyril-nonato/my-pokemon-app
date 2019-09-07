@@ -1,0 +1,18 @@
+.Home {
+  height: 100%;
+  @include display-flex(center, center);
+  flex-direction: column;
+
+  &__title {
+    @include text-style(4rem, 2rem, 5px);
+    transition: all .3s;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  &__paragraph {
+    font-size: 2rem;
+  }
+}

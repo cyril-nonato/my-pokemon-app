@@ -1,0 +1,11 @@
+.Backdrop {
+  height: 100vh;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 125;
+  background-color: rgba($color-black, 0.7);
+}

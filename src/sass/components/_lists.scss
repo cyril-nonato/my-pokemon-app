@@ -1,0 +1,62 @@
+.Lists {
+  width: 100%;
+  @include display-flex(center,center);
+  flex-direction: column;
+
+  &__input {
+    margin-bottom: 2rem;
+    padding: .5rem 1rem;
+    font-size: 1.6rem;
+    border: 1px solid $color-primary;
+    border-radius: 5px;
+    
+    &:focus {
+    border: 3px solid $color-primary;
+    outline-style: solid;
+    outline-color: $color-secondary;
+    }
+  }
+
+  &__list {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 3rem;
+    grid-gap: 1.5rem;
+    list-style: none;
+
+    @include respond(medium) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @include respond(small) {
+      grid-template-columns: 1fr 1fr;
+    } 
+
+  }
+
+  &__item {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    width: 100%;
+    height: 100%;
+    @include display-flex(center,center);
+    border-radius: 5px;
+
+    &:visited,
+    &:link {
+      text-decoration: none;
+      color: $color-white;
+      background-image: linear-gradient(30deg, $color-secondary 0%, $color-secondary 50%, $color-primary 50%);
+      background-size: 250%;
+      transition: all .5s;
+    }
+
+    &:hover {
+      background-position: 100%;
+    }
+  }
+}

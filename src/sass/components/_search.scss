@@ -1,0 +1,68 @@
+.Search {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  @include display-flex(center, center);
+
+
+  &__content {
+    padding: 2rem 3rem;
+    background-color: $color-primary;
+    border-radius: 3px;
+    border: 2px solid $color-white;
+    box-shadow: 0 2px 3px $color-white;
+    @include display-flex(center, center);
+    flex-direction: column;
+    z-index: 250;
+    position: fixed;
+    animation: smallToBig .3s ease-in;
+  }
+
+  &__title {
+    font-size: 2.4rem;
+    color: $color-black;
+    margin-bottom: 1rem;
+  }
+
+  &__input {
+    padding: 1rem 1.5rem;
+    font-size: 1.8rem;
+    background-color: $color-white;
+    border-radius: 5px;
+  }
+
+  &__submit {
+    border: none;
+    background-color: transparent;
+  }
+
+  &__icon {
+    transform: scale(2.4);
+    color: $color-black;
+    margin-left: 1.5rem;
+    transition: all .2s;
+
+    &:hover {
+      cursor: pointer;
+      color: $color-white;
+    }
+
+    @include respond(medium) {
+      transform: scale(2);
+    }
+    
+    @include respond(small) {
+      transform: scale(1.6);
+    }
+  }
+}
+
+@keyframes smallToBig {
+  0% {
+    transform: scale(.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

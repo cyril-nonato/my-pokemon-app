@@ -1,0 +1,44 @@
+.Generations {
+  padding: 6rem 1rem 4rem 1rem;
+  @include display-flex(center, center);
+  flex-direction: column;
+
+  &__title {
+    @include text-style(3rem, 3rem, 2px);
+  }
+
+  &__list {
+    width: 100%;
+    max-width: 700px;
+    @include display-flex(space-evenly, center);
+    list-style: none;
+  }
+
+  &__item {
+    font-size: 2rem;
+    transition: all .5s;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translate(0);
+    }
+  }
+
+  &__link {
+    background-image: linear-gradient(40deg, $color-secondary 0%, $color-secondary 50%, $color-primary 50%);
+    background-size: 300%;
+    padding: 1.2rem 2rem;
+    border-radius: 5px;
+    color: $color-white;
+    text-decoration: none;
+    transition: all .5s;
+
+    &:hover {
+      background-position: 100%;
+    }
+  }
+
+}

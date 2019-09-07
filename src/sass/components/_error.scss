@@ -1,0 +1,14 @@
+.Error {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include display-flex(space-evenly, center);
+  z-index: -5;
+
+  &__text {
+    font-size: 2rem;
+    color: $color-error;
+  }
+}
