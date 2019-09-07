@@ -10,7 +10,7 @@ import Home from './components/home/Home';
 
 function App() {
   return (
-    <Router>
+    <Router basename='my-pokemon-app'>
       <Layout />
       <main className="App">
         <Switch>
