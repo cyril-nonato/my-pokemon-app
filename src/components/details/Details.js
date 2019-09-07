@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 
 import * as actions from '../../store/actions/index';
 import Bar from './Bar';
@@ -96,10 +96,10 @@ const Details = props => {
             {pokemonEvoImages.map(pokemon => {
               return (
                 <li key={pokemon.name} className="EvoDetails__item">
-                  <a className="EvoDetails__link" href={`/${pokemon.name}`}>
+                  <Link className="EvoDetails__link" to={`/${pokemon.name}`}>
                     <img className="EvoDetails__image" src={pokemon.sprite} alt="pokemon.name"/>
                     <span className="EvoDetails__text">{pokemon.name}</span>
-                  </a>
+                  </Link>
                 </li>
               )
             })}
