@@ -6,7 +6,6 @@ React
 Redux  
 Redux-thunk  
 React-router-dom  
-Stripe-api
 
 ## How to use
 Npm install
